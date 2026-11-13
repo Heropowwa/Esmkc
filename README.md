@@ -21,7 +21,7 @@ sudo ./esmkc status             # shows the brightness, e.g. "Brightness: 3/9 (3
 It needs root because it writes to `/dev/hidraw*`.
 
 `color` always writes **slot 2** (the "fixed color" preset) and selects it. It never touches the
-other presets. Brightness is on a scale of 1 to 9.
+other presets. Brightness is on a scale of 0 to 9.
 
 This matches my own setup: in Vantage I use slot 2 as my custom solid color preset. Yours may be arranged
 differently. Making the slot selectable from the command
